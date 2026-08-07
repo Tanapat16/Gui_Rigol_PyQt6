@@ -4,7 +4,7 @@
 
 ---
 
-## 📸 ฟีเจอร์หลัก (Key Features)
+## ฟีเจอร์หลัก (Key Features)
 
 * **Dual Mode Operation:**
   * **Simulation Mode:** ทดสอบการทำงานของอินเทอร์เฟซและแสดงคลื่นสัญญาณจำลองโดยไม่ต้องต่อฮาร์ดแวร์จริง
@@ -24,3 +24,14 @@
 * `PyQt6` (สำหรับสร้าง GUI)
 * `pyvisa` และ `pyvisa-py` (สำหรับสื่อสารผ่านพอร์ต VISA / USB / LAN)
 * `Pillow` หรือ `PyQt6` Native Image Handling (สำหรับจัดการภาพถ่ายหน้าจอ)
+
+##  การติดตั้ง Dependencies
+
+```bash
+# 1. สร้างและเปิดใช้งาน Virtual Environment (แนะนำ)
+python3 -m venv venv
+source venv/bin/activate  # สำหรับ Linux / macOS
+# venv\Scripts\activate   # สำหรับ Windows
+
+# 2. ติดตั้ง ไลบรารี ทั้งหมด
+pip install PyQt6 pyvisa pyvisa-py Pillow
